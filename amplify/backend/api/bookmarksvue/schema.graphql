@@ -1,0 +1,15 @@
+type Bookmark
+  @model
+  @auth(rules: [{ allow: owner }])
+  @key(name: "byBookmarkCollection", fields: ["bookmarkCollectionId", "name"]) {
+  id: ID!
+  name: String!
+  href: String!
+  bookmarkCollectionId: ID!
+}
+
+type BookmarkCollection @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  bookmarks: [Bookmark!]!
+    @connection(keyName: "byBookmarkCollection", fields: ["id"])
+}

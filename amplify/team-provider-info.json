@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bookmarksvue-dev-82308-authRole",
+      "UnauthRoleArn": "arn:aws:iam::138760485886:role/amplify-bookmarksvue-dev-82308-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::138760485886:role/amplify-bookmarksvue-dev-82308-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-bookmarksvue-dev-82308-deployment",
+      "UnauthRoleName": "amplify-bookmarksvue-dev-82308-unauthRole",
+      "StackName": "amplify-bookmarksvue-dev-82308",
+      "StackId": "arn:aws:cloudformation:us-east-1:138760485886:stack/amplify-bookmarksvue-dev-82308/09497670-f5d5-11ea-a1e8-12217e59f19f",
+      "AmplifyAppId": "d1cwpcuz2kq4he"
+    },
+    "categories": {
+      "auth": {
+        "bookmarksvued89b129f": {}
+      }
+    }
+  }
+}
