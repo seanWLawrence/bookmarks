@@ -4,8 +4,9 @@
     :href="href"
     target="_blank"
     rel="noopener noreferrer nofollow"
-    >{{ name }}</a
   >
+    {{ name }}
+  </a>
 </template>
 
 <script lang="ts">

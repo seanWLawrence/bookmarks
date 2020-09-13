@@ -8,7 +8,7 @@
         v-for="bookmark in bookmarks"
         :key="bookmark.name"
       >
-        <Bookmark :name="bookmark.name" :href="bookmark.href" />
+        <bookmark :name="bookmark.name" :href="bookmark.href" />
       </li>
     </ul>
   </div>
